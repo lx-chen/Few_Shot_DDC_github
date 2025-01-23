@@ -1,6 +1,6 @@
 {
-  "rng_seed": 777,
-  "n_tasks": 200,
+  "rng_seed": 444,
+  "n_tasks": 180,
   "source_dataset": "miniImagenet",
   "target_dataset": "miniImagenet",
   "backbone_arch": "WideResNet28_10",
@@ -24,3 +24,4 @@
   "c": 0.5,
   "T": 0.8
 }
+

@@ -558,7 +558,7 @@ def main(config_dict):
 if __name__ == '__main__':
     import argparse
     my_parser = argparse.ArgumentParser()
-    my_parser.add_argument('--configid', default='5ways/miniImagenet_5s5w', type=str)  # 5-way 1-shot
+    my_parser.add_argument('--configid', default='5ways/miniImagenet_1s5w', type=str)  # 5-way 1-shot
     # my_parser.add_argument('--configid', default='5ways/CUB_1s5w', type=str)
 #     my_parser.add_argument('--configid', default='5ways/CIFAR-FS_5s5w', type=str)
 

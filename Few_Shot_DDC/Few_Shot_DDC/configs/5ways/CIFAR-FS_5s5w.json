@@ -1,6 +1,6 @@
 {
-  "rng_seed": 0,
-  "n_tasks": 30,
+  "rng_seed": 444,
+  "n_tasks": 250,
   "source_dataset": "CIFAR-FS",
   "target_dataset": "CIFAR-FS",
   "backbone_arch": "WideResNet28_10",
@@ -22,5 +22,5 @@
   "a": 1,
   "b": 1,
   "c": 0.5,
-  "T": 0.7
+  "T": 0.8
 }

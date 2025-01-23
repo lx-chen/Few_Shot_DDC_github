@@ -1,6 +1,6 @@
 {
   "rng_seed": 777,
-  "n_tasks": 600,   
+  "n_tasks": 260,   
   "source_dataset": "miniImagenet",
   "target_dataset": "miniImagenet",
   "backbone_arch": "WideResNet28_10",
@@ -13,7 +13,7 @@
   "n_query": 15,
   "dc_tukey_lambda": 0.5,
   "gamma": 1.1,
-  "dc_k": 4,
+  "dc_k": 5,
   "dc_alpha": 0.01,
   "lbfgs_iters": 100,
   "store_results": true,
@@ -21,6 +21,6 @@
   "torch_threads": null,
   "a": 1,
   "b": 1,
-  "c": 0.6,
-  "T": 0.4
+  "c": 0.5,
+  "T": 0.2
 }
